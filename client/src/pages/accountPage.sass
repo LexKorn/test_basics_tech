@@ -1,0 +1,28 @@
+.account
+    width: 70%
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &__img
+        width: 400px
+        height: 500px
+        object-fit: cover
+    &__text
+        font-size: 20px
+        span
+            font-weight: bold
+
+@media (max-width: 1180px)
+    .account
+        width: unset
+
+@media (max-width: 1180px)
+    .account
+        &__img
+            width: 280px
+            height: 400px
+
+@media (max-width: 767px)
+    .account
+        &__wrapper
+            display: block
